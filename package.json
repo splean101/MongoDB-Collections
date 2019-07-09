@@ -1,0 +1,22 @@
+{
+  "name": "dbmongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splean101/MongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splean101/MongoDB/issues"
+  },
+  "homepage": "https://github.com/splean101/MongoDB#readme",
+  "dependencies": {
+    "mongodb": "^3.2.7"
+  }
+}
