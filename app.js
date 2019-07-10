@@ -1,3 +1,11 @@
+/*Задание №1.
+Установите соединение с базой данных MongoDB.
+Создайте коллекцию с названием collection1.
+Создайте коллекцию с названием collection2.
+Переименуйте название коллекции collection1 в collection2, если будет ошибка, 
+тогда сначала переименуйте коллекцию с названием collection2 в tmpCollection2 
+и уже потом коллекцию с названием collection1в collection2.*/
+
 const MongoClient = require('mongodb').MongoClient;
 
 MongoClient.connect(
@@ -32,4 +40,3 @@ MongoClient.connect(
             };
         });
     });
-    
